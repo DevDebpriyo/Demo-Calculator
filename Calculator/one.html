@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-200">
+    
+    <div class="w-72 bg-white p-6 rounded-lg shadow-lg">
+
+        <!--Display screen-->
+        <div id="display" class="h-12 mb-4 bg-gray-100 rounded-lg flex items-center justify-end px-3 text-2xl font-semibold text-gray-800">
+            0
+        </div>
+
+        <!--Buttons-->
+        <div class="grid grid-cols-4 gap-2">
+
+            <!-- Row 1 -->
+            <button class="bg-gray-300 text-gray-800 p-4 rounded" onclick="clearDisplay()">C</button>
+            <button class="bg-gray-300 text-gray-800 p-4 rounded" onclick="deleteLast()">DEL</button>
+            <button class="bg-gray-300 text-gray-800 p-4 rounded" onclick="calcPer()">%</button>
+            <button class="bg-orange-400 text-white p-4 rounded" onclick="input('/')">/</button>
+          
+            <!-- Row 2 -->
+            <button class="bg-gray-200 text-gray-800 p-4 rounded" onclick="input('7')">7</button>
+            <button class="bg-gray-200 text-gray-800 p-4 rounded" onclick="input('8')">8</button>
+            <button class="bg-gray-200 text-gray-800 p-4 rounded" onclick="input('9')">9</button>
+            <button class="bg-orange-400 text-white p-4 rounded" onclick="input('*')">x</button>
+          
+            <!-- Row 3 -->
+            <button class="bg-gray-200 text-gray-800 p-4 rounded" onclick="input('4')">4</button>
+            <button class="bg-gray-200 text-gray-800 p-4 rounded" onclick="input('5')">5</button>
+            <button class="bg-gray-200 text-gray-800 p-4 rounded" onclick="input('6')">6</button>
+            <button class="bg-orange-400 text-white p-4 rounded" onclick="input('-')">-</button>
+          
+            <!-- Row 4 -->
+            <button class="bg-gray-200 text-gray-800 p-4 rounded" onclick="input('1')">1</button>
+            <button class="bg-gray-200 text-gray-800 p-4 rounded" onclick="input('2')">2</button>
+            <button class="bg-gray-200 text-gray-800 p-4 rounded" onclick="input('3')">3</button>
+            <button class="bg-orange-400 text-white p-4 rounded" onclick="input('+')">+</button>
+          
+            <!-- Row 5 -->
+            <button class="bg-gray-200 text-gray-800 p-4 rounded col-span-2" onclick="input('0')">0</button>
+            <button class="bg-gray-200 text-gray-800 p-4 rounded" onclick="input('.')">.</button>
+            <button class="bg-blue-500 text-white p-4 rounded" onclick="Calculate()">=</button>
+        </div>
+    </div>
+      
+    <script src="logic.js"></script>
+</body>
+</html>
