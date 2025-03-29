@@ -1,6 +1,6 @@
 # Demo-Calculator
 
-# 🖩 Calculator   
+# 🖩 Calculator    
 
 A simple **calculator** built using **HTML, Tailwind CSS, and JavaScript**. This project performs basic arithmetic operations with a modern and responsive design.  
 
