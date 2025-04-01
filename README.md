@@ -4,7 +4,7 @@
 
 A simple **calculator** built using **HTML, Tailwind CSS, and JavaScript**. This project performs basic arithmetic operations with a modern and responsive design.  
 
-## 🚀 Features  
+## 🚀 Features   
 ✅ **Basic Operations**: Addition, Subtraction, Multiplication, Division ✖️➕➖➗  
 ✅ **Styled with Tailwind CSS**: Clean and modern UI 🎨  
 ✅ **Keyboard Support**: Allows input using the keyboard ⌨️  
