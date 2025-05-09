@@ -10,7 +10,7 @@ build/
 # Editor & OS Files
 .vscode/
 .idea/
-.DS_Store
+.DS_Store 
 Thumbs.db
 
 # Environment variables
