@@ -7,7 +7,7 @@ document.addEventListener('keydown',handleKeyPress)
 //* Function to input values into display
 function input(value){
     display.innerText = display.innerText === "0" ? value : display.innerText + value
-}
+} 
 
 //* Function to calculate %
 function calcPer(){
