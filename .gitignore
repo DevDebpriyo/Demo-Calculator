@@ -5,7 +5,7 @@ yarn.lock
 # Logs    
 dist/   
 build/
-.cache/ 
+.cache/  
  
 # Editor & OS Files
 .vscode/
